@@ -1,0 +1,59 @@
+MSG : Accuracy is 0.608625
+--------------------------------------------------
+Iteration 0
+Train on 36000 samples, validate on 4000 samples
+Epoch 1/1
+36000/36000 [==============================] - 11s 294us/step - loss: 1.9202 - acc: 0.3212 - val_loss: 1.6853 - val_acc: 0.3801
+
+--------------------------------------------------
+Iteration 10
+Train on 36000 samples, validate on 4000 samples
+Epoch 1/1
+36000/36000 [==============================] - 10s 267us/step - loss: 1.0763 - acc: 0.5999 - val_loss: 1.0795 - val_acc: 0.6005
+
+--------------------------------------------------
+Iteration 20
+Train on 36000 samples, validate on 4000 samples
+Epoch 1/1
+36000/36000 [==============================] - 10s 268us/step - loss: 0.8225 - acc: 0.6928 - val_loss: 0.8657 - val_acc: 0.6688
+--------------------------------------------------
+Iteration 30
+Train on 36000 samples, validate on 4000 samples
+Epoch 1/1
+36000/36000 [==============================] - 10s 267us/step - loss: 0.6303 - acc: 0.7640 - val_loss: 0.7120 - val_acc: 0.7262
+--------------------------------------------------
+Iteration 40
+Train on 36000 samples, validate on 4000 samples
+Epoch 1/1
+36000/36000 [==============================] - 10s 265us/step - loss: 0.4410 - acc: 0.8423 - val_loss: 0.5275 - val_acc: 0.8015
+--------------------------------------------------
+Iteration 50
+Train on 36000 samples, validate on 4000 samples
+Epoch 1/1
+36000/36000 [==============================] - 10s 265us/step - loss: 0.3057 - acc: 0.8959 - val_loss: 0.4212 - val_acc: 0.8427
+--------------------------------------------------
+Iteration 60
+Train on 36000 samples, validate on 4000 samples
+Epoch 1/1
+36000/36000 [==============================] - 9s 263us/step - loss: 0.2164 - acc: 0.9286 - val_loss: 0.3625 - val_acc: 0.8682
+--------------------------------------------------
+Iteration 70
+Train on 36000 samples, validate on 4000 samples
+Epoch 1/1
+36000/36000 [==============================] - 9s 264us/step - loss: 0.1634 - acc: 0.9470 - val_loss: 0.3595 - val_acc: 0.8735
+--------------------------------------------------
+Iteration 80
+Train on 36000 samples, validate on 4000 samples
+Epoch 1/1
+36000/36000 [==============================] - 9s 263us/step - loss: 0.1215 - acc: 0.9627 - val_loss: 0.3520 - val_acc: 0.8789
+--------------------------------------------------
+Iteration 90
+Train on 36000 samples, validate on 4000 samples
+Epoch 1/1
+36000/36000 [==============================] - 10s 264us/step - loss: 0.0888 - acc: 0.9753 - val_loss: 0.3399 - val_acc: 0.8904
+--------------------------------------------------
+Iteration 99
+Train on 36000 samples, validate on 4000 samples
+Epoch 1/1
+36000/36000 [==============================] - 10s 264us/step - loss: 0.0757 - acc: 0.9794 - val_loss: 0.3584 - val_acc: 0.8887
+

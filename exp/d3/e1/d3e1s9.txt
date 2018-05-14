@@ -1,0 +1,84 @@
+
+MSG : Accuracy is 0.10035714285714285
+
+Iteration 0
+Train on 9000 samples, validate on 1000 samples
+Epoch 1/1
+9000/9000 [==============================] - 9s - loss: 2.3188 - acc: 0.2050 - val_loss: 2.1196 - val_acc: 0.2988
+
+
+--------------------------------------------------
+Iteration 10
+Train on 9000 samples, validate on 1000 samples
+Epoch 1/1
+9000/9000 [==============================] - 8s - loss: 1.5463 - acc: 0.4324 - val_loss: 1.5280 - val_acc: 0.4385
+
+
+--------------------------------------------------
+Iteration 20
+Train on 9000 samples, validate on 1000 samples
+Epoch 1/1
+9000/9000 [==============================] - 7s - loss: 1.3632 - acc: 0.5022 - val_loss: 1.3546 - val_acc: 0.5055
+
+
+--------------------------------------------------
+Iteration 30
+Train on 9000 samples, validate on 1000 samples
+Epoch 1/1
+
+
+9000/9000 [==============================] - 8s - loss: 1.2218 - acc: 0.5573 - val_loss: 1.2585 - val_acc: 0.5417
+
+
+--------------------------------------------------
+Iteration 40
+Train on 9000 samples, validate on 1000 samples
+Epoch 1/1
+9000/9000 [==============================] - 8s - loss: 1.0976 - acc: 0.6065 - val_loss: 1.1453 - val_acc: 0.5807
+
+
+--------------------------------------------------
+Iteration 50
+Train on 9000 samples, validate on 1000 samples
+Epoch 1/1
+9000/9000 [==============================] - 8s - loss: 1.0002 - acc: 0.6409 - val_loss: 1.0700 - val_acc: 0.6015
+
+
+--------------------------------------------------
+Iteration 60
+Train on 9000 samples, validate on 1000 samples
+Epoch 1/1
+
+
+9000/9000 [==============================] - 7s - loss: 0.9022 - acc: 0.6755 - val_loss: 1.0600 - val_acc: 0.6010
+
+
+--------------------------------------------------
+Iteration 70
+Train on 9000 samples, validate on 1000 samples
+Epoch 1/1
+9000/9000 [==============================] - 8s - loss: 0.8161 - acc: 0.7079 - val_loss: 1.0007 - val_acc: 0.6323
+
+
+--------------------------------------------------
+Iteration 80
+Train on 9000 samples, validate on 1000 samples
+Epoch 1/1
+9000/9000 [==============================] - 7s - loss: 0.7463 - acc: 0.7353 - val_loss: 0.9607 - val_acc: 0.6458
+
+
+
+Iteration 90
+Train on 9000 samples, validate on 1000 samples
+Epoch 1/1
+
+
+9000/9000 [==============================] - 9s - loss: 0.6425 - acc: 0.7786 - val_loss: 0.9425 - val_acc: 0.6575
+
+
+
+--------------------------------------------------
+Iteration 99
+Train on 9000 samples, validate on 1000 samples
+Epoch 1/1
+9000/9000 [==============================] - 10s - loss: 0.5703 - acc: 0.8047 - val_loss: 0.9279 - val_acc: 0.6625

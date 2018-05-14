@@ -1,0 +1,96 @@
+
+
+MSG : Accuracy is 0.8389
+--------------------------------------------------
+Iteration 0
+Train on 18000 samples, validate on 2000 samples
+Epoch 1/2
+18000/18000 [==============================] - 4s 240us/step - loss: 2.1561 - acc: 0.2727 - val_loss: 1.9240 - val_acc: 0.3290
+Epoch 2/2
+18000/18000 [==============================] - 4s 225us/step - loss: 1.8171 - acc: 0.3386 - val_loss: 1.7288 - val_acc: 0.3539
+
+--------------------------------------------------
+Iteration 10
+Train on 18000 samples, validate on 2000 samples
+Epoch 1/2
+18000/18000 [==============================] - 4s 229us/step - loss: 1.1523 - acc: 0.5786 - val_loss: 1.1908 - val_acc: 0.5568
+Epoch 2/2
+18000/18000 [==============================] - 4s 232us/step - loss: 1.1314 - acc: 0.5870 - val_loss: 1.1353 - val_acc: 0.5774
+
+
+--------------------------------------------------
+Iteration 20
+Train on 18000 samples, validate on 2000 samples
+Epoch 1/2
+18000/18000 [==============================] - 4s 232us/step - loss: 0.8007 - acc: 0.7148 - val_loss: 0.8711 - val_acc: 0.6775
+Epoch 2/2
+18000/18000 [==============================] - 4s 232us/step - loss: 0.7883 - acc: 0.7174 - val_loss: 0.8692 - val_acc: 0.6721
+
+--------------------------------------------------
+Iteration 30
+Train on 18000 samples, validate on 2000 samples
+Epoch 1/2
+18000/18000 [==============================] - 4s 230us/step - loss: 0.3617 - acc: 0.8842 - val_loss: 0.4401 - val_acc: 0.8367
+Epoch 2/2
+18000/18000 [==============================] - 4s 228us/step - loss: 0.3424 - acc: 0.8925 - val_loss: 0.4171 - val_acc: 0.8489
+
+--------------------------------------------------
+Iteration 40
+Train on 18000 samples, validate on 2000 samples
+Epoch 1/2
+18000/18000 [==============================] - 4s 230us/step - loss: 0.1430 - acc: 0.9649 - val_loss: 0.2326 - val_acc: 0.9204
+Epoch 2/2
+18000/18000 [==============================] - 4s 230us/step - loss: 0.1298 - acc: 0.9700 - val_loss: 0.2311 - val_acc: 0.9220
+
+--------------------------------------------------
+Iteration 50
+Train on 18000 samples, validate on 2000 samples
+Epoch 1/2
+18000/18000 [==============================] - 4s 230us/step - loss: 0.0638 - acc: 0.9882 - val_loss: 0.1774 - val_acc: 0.9351
+Epoch 2/2
+18000/18000 [==============================] - 4s 230us/step - loss: 0.0700 - acc: 0.9853 - val_loss: 0.1843 - val_acc: 0.9309
+
+--------------------------------------------------
+Iteration 60
+Train on 18000 samples, validate on 2000 samples
+Epoch 1/2
+18000/18000 [==============================] - 4s 229us/step - loss: 0.0410 - acc: 0.9935 - val_loss: 0.2268 - val_acc: 0.9349
+Epoch 2/2
+18000/18000 [==============================] - 4s 227us/step - loss: 0.0754 - acc: 0.9801 - val_loss: 0.1808 - val_acc: 0.9360
+
+
+
+
+--------------------------------------------------
+Iteration 70
+Train on 18000 samples, validate on 2000 samples
+Epoch 1/2
+18000/18000 [==============================] - 4s 231us/step - loss: 0.0192 - acc: 0.9984 - val_loss: 0.1372 - val_acc: 0.9511
+Epoch 2/2
+18000/18000 [==============================] - 4s 231us/step - loss: 0.0187 - acc: 0.9986 - val_loss: 0.1442 - val_acc: 0.9501
+
+--------------------------------------------------
+Iteration 80
+Train on 18000 samples, validate on 2000 samples
+Epoch 1/2
+18000/18000 [==============================] - 4s 227us/step - loss: 0.0502 - acc: 0.9865 - val_loss: 0.2379 - val_acc: 0.9241
+Epoch 2/2
+18000/18000 [==============================] - 4s 230us/step - loss: 0.0663 - acc: 0.9818 - val_loss: 0.1409 - val_acc:
+
+
+--------------------------------------------------
+Iteration 90
+Train on 18000 samples, validate on 2000 samples
+Epoch 1/2
+18000/18000 [==============================] - 4s 231us/step - loss: 0.0100 - acc: 0.9997 - val_loss: 0.1289 - val_acc: 0.9582
+Epoch 2/2
+18000/18000 [==============================] - 4s 230us/step - loss: 0.0092 - acc: 0.9997 - val_loss: 0.1286 - val_acc: 0.9576
+
+
+--------------------------------------------------
+Iteration 99
+Train on 18000 samples, validate on 2000 samples
+Epoch 1/2
+18000/18000 [==============================] - 4s 229us/step - loss: 0.0075 - acc: 0.9999 - val_loss: 0.1317 - val_acc: 0.9581
+Epoch 2/2
+18000/18000 [==============================] - 4s 226us/step - loss: 0.0070 - acc: 0.9999 - val_loss: 0.1305 - val_acc:
