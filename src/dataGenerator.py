@@ -69,13 +69,24 @@ def splitData(DATA_SIZE, encode_data):
     # train_test_split
     train_x = x[:TRAINING_SIZE]
     train_y = y[:TRAINING_SIZE]
-    test_x = x[TRAINING_SIZE:TRAINING_SIZE+TESTING_SIZE]
-    test_y = y[TRAINING_SIZE:TRAINING_SIZE+TESTING_SIZE]
+    test_x = x[-TESTING_SIZE:]
+    test_y = y[-TESTING_SIZE:]
 
     split_at = len(train_x) - len(train_x) // 10
     (x_train, x_val) = train_x[:split_at], train_x[split_at:]
     (y_train, y_val) = train_y[:split_at], train_y[split_at:]
 
+    print('Training Data:')
+    print(x_train.shape)
+    print(y_train.shape)
+
+    print('Validation Data:')
+    print(x_val.shape)
+    print(y_val.shape)
+
+    print('Testing Data:')
+    print(test_x.shape)
+    print(test_y.shape)
     # print("input: ", x_train[:3], '\n\n', "label: ", y_train[:3])
 
     return [[x_train,y_train],[x_val,y_val],[test_x,test_y]]
