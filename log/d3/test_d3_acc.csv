@@ -1,0 +1,5 @@
+model,test_acc
+./log/d3/s9.csv,0.41536
+./log/d3/s18.csv,0.8501
+./log/d3/s27.csv,0.9428
+./log/d3/s36.csv,0.97402
