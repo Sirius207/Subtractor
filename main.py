@@ -16,7 +16,7 @@ DATA_SIZE = {
   'TESTING_SIZE': 50000,
 }
 
-# Build Corpus Data
+# unCommand to Build Corpus Data
 # data = getData(TOTAL_SIZE, DIGITS)
 # # Save X Corpus Data
 # with open('./corpus/total_x.csv', 'w') as corpus_x:
