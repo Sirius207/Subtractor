@@ -1,8 +1,3 @@
-from keras.models import Sequential
-from keras import layers
-
-from six.moves import range
-
 from src.dataGenerator import (getEncodeData, splitData)
 from src.model import buildModel
 from src.training import train
@@ -20,20 +15,21 @@ DATA_SIZE = {
 
 encodeData = getEncodeData(TOTAL_SIZE, DIGITS, CHARS)
 
-test_DIGITS = [3,4]
 test_training_size = [10000]
 
-with open('test_acc.csv', 'w') as output:
+with open('./log/test_acc.csv', 'w') as output:
     output.write('model,test_acc\n')
-
     for training_size in test_training_size:
         DATA_SIZE['TRAINING_SIZE'] = training_size
         TRAINING_SIZE = DATA_SIZE['TRAINING_SIZE']
+        # Training data - validating data
         REAL_TRAINING_SIZE = int((TRAINING_SIZE - TRAINING_SIZE/10)/1000)
 
+        # set training & testing data
         trainingOutputPath = './log/d' + str(DIGITS) + '/s' + str(REAL_TRAINING_SIZE)+'.csv' 
         dataSet = splitData(DATA_SIZE, encodeData)
         
+        # build model & training
         model = buildModel(DIGITS, CHARS)
         training_model = train(dataSet, BATCH_SIZE, trainingOutputPath, model)
         test_acc = test(dataSet, model, CHARS)

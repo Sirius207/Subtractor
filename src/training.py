@@ -8,7 +8,7 @@ def train(DATA, BATCH_SIZE, trainingOutputPath, model):
     training_log = list()
     with open(trainingOutputPath, 'w') as output:
         output.write('loss,acc,val_loss,val_acc\n')
-        for iteration in range(1):
+        for iteration in range(200):
             print()
             print('-' * 50)
             print('Iteration', iteration)

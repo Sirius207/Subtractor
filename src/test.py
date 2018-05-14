@@ -1,6 +1,6 @@
-REVERSE = False
-
 from .characterTable import getCharacterTable
+
+REVERSE = False
 
 class colors:
     ok = '\033[92m'
