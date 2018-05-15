@@ -16,7 +16,7 @@ jupyter notebook
 ```
 
 # Report
-[nbviewer]()
+[nbviewer](https://nbviewer.jupyter.org/github/Sirius207/Subtractor/blob/master/Model.ipynb)
 
 
 # Input/Output format:
