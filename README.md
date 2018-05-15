@@ -1,18 +1,25 @@
 # Subtractor
-A sequence to sequence subtractor by neural network
+A sequence to sequence subtractor by LSTM
 
 ## Prerequisite
 - Python 3.6.4
 
 ## Usage
 
+Basic
 ```
 pip install
+jupyter notebook
+```
+
+Run Different Training Size & Digits
+```
 python main.py
 ```
-or 
+
+Direct Load Model & Testing
 ```
-jupyter notebook
+python model.py
 ```
 
 # Report

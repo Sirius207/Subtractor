@@ -46,12 +46,12 @@ with open('./corpus/total_y.csv', 'r') as y:
 data = [data_x, data_y]
 encodeData = encodeData(DIGITS, data, CHARS)
 
-test_training_size = [20000]
+diff_training_size = [10000,20000,30000,40000]
 
 # Iterate Different Training Size
 with open('./log/test_acc.csv', 'w') as output:
     output.write('model,test_acc\n')
-    for training_size in test_training_size:
+    for training_size in diff_training_size:
         DATA_SIZE['TRAINING_SIZE'] = training_size
         TRAINING_SIZE = DATA_SIZE['TRAINING_SIZE']
         # Training data - validating data
